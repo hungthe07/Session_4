@@ -1,0 +1,8 @@
+SELECT * 
+FROM Employees;
+SELECT * 
+FROM Employees
+WHERE Salary > 5000;
+SELECT * 
+FROM Employees
+order by Hiredate DESC;
