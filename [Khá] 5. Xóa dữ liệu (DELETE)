@@ -1,0 +1,4 @@
+DELETE FROM Employees
+WHERE Employee_id = 1;
+DELETE FROM Employees
+WHERE Salary < 5000;
