@@ -1,0 +1,6 @@
+UPDATE Employees
+SET Salary = 4800
+WHERE EmployeeID = 2;
+UPDATE Employees
+SET HireDate = '2021-08-01'
+WHERE FirstName = 'David';
