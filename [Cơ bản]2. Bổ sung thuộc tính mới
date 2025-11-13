@@ -1,0 +1,5 @@
+use CompanyDB;
+alter table Employees
+add culumn hire date;
+alter table Employees
+add column salary int;
