@@ -1,0 +1,7 @@
+create database CompanyDB;
+use CompanyDB;
+create table Employees(
+ Employees_id int primary key auto_increment,
+ firstname varchar(50),
+ lastname varchar(50)
+);
