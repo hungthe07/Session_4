@@ -1,0 +1,10 @@
+SELECT Department, COUNT(*) AS soluongnhanvien
+FROM Employees
+GROUP BY Department;
+SELECT Department, AVG(Salary) AS luongtrungbinh
+FROM Employees
+GROUP BY Department;
+SELECT Department, AVG(Salary) AS luongtrungbinh
+FROM Employees
+GROUP BY Department
+HAVING AVG(Salary) > 5000;
